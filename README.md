@@ -1,70 +1,52 @@
-# itr-plus
+ITRPlus
 
-This project is a React application for [insert a brief description of your project here]. It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based platform for simplifying Income Tax Filing in India.
+ITRPlus helps users file returns, estimate taxes, compare tax regimes, manage finances, and track financial goals — all in one place.
 
-## Available Scripts
+🌐 Live Demo
 
-In the project directory, you can run:
+Check out the live app here: https://itrplus-website.netlify.app/
 
-### `npm start`
+Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Income Tax Filing – Guided forms to file your returns.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ITR Estimator – Estimate your tax liability based on income & deductions.
 
-### `npm test`
+Compare Tax Regimes – Compare the Old vs New Tax Regime to determine which is better.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Form 16 Explainer – Breaks down Form 16 details for easier understanding.
 
-### `npm run build`
+Money Management – Tools to track and manage your finances.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Goal Tracking Service – Plan and monitor financial goals.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ChatBot Assistance – Get quick help with tax/financial queries.
 
-For more information on deployment, check out the [Create React App deployment documentation](https://facebook.github.io/create-react-app/docs/deployment).
+Firebase Integration – Authentication and backend support via Firebase.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Frontend: React.js
 
-It will instead copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) right into your project so you can have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts, so you can tweak them. At this point, you're on your own.
+Backend / Auth: Firebase
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and medium deployments, and you shouldn't feel obligated to use this feature unless you need full customization.
+Deployment: Netlify
 
-## Learn More
+Tooling: Node.js, npm
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📂 Project Structure
+itrplus-main/
+│── public/              
+│── src/                 
+│   ├── components/      
+│   ├── pages/           
+│   ├── App.js           
+│   ├── index.js         
+│   ├── firebase.js      
+│── package.json         
+│── README.md            
 
-### Code Splitting
 
-This section has moved to: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved to: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved to: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved to: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-For deployment-specific steps, refer to the section [here](https://facebook.github.io/create-react-app/docs/deployment).
-
-### `npm run build` fails to minify
-
-This section has moved to: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
